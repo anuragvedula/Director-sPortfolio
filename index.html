@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anurag Vedula | Creative Director</title>
+  <meta name="description" content="Anurag Vedula is a Creative Director making brand films that feel like cinema. Brand films, ad campaigns and founder content, from script to final cut.">
+  <meta property="og:title" content="Anurag Vedula | Creative Director">
+  <meta property="og:description" content="No, you can't. Call Anurag.">
+  <meta property="og:image" content="https://i.ytimg.com/vi/EYkbg444H8A/maxresdefault.jpg">
+  <meta name="theme-color" content="#000000">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Space between the 3 rows: PhonePe, TickerTape and the reels */
+    #ads > * { margin-top: 48px; }
+    @media (max-width: 734px) { #ads > * { margin-top: 24px; } }
+  </style>
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__mark">Anurag Vedula</a>
+      <nav class="nav__links" aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#films">Films</a>
+        <a href="#series">Series</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__copy">
+        <p class="hero__eyebrow reveal">Creative Director</p>
+        <h1 class="hero__title reveal">No, you can't,<br>call <span class="shine">Anurag.</span></h1>
+        <p class="hero__sub reveal">Brand films that feel like cinema.</p>
+        <div class="hero__actions reveal">
+          <a href="#contact" class="pill">Start a project</a>
+        </div>
+      </div>
+      <figure class="hero__media reveal" id="hero-media">
+        <video muted playsinline preload="auto" aria-label="Behind the scenes on a shoot day">
+          <source src="media/showreel.mp4" type="video/mp4">
+        </video>
+        <img class="hero__photo" src="media/anurag.jpg" alt="Anurag Vedula">
+      </figure>
+    </section>
+
+    <!-- BENTO: SELECTED WORK -->
+    <section id="work" class="block">
+      <h2 class="block__title reveal">Selected work.</h2>
+      <div class="bento">
+
+        <!-- Featured brand film -->
+        <article class="tile t-hero tile--media reveal" id="t-feature"></article>
+
+        <!-- Stat -->
+        <div class="tile t-stat reveal">
+          <p class="stat"><span class="shine">215K+</span></p>
+          <p class="tile__note">views on YouTube.</p>
+        </div>
+
+        <!-- Role -->
+        <div class="tile t-role reveal">
+          <p class="tile__kicker">Currently</p>
+          <h3 class="tile__h">Creative Director at Owled Media</h3>
+          <p class="tile__p">P2C and skit-based ad films. I own pre-production, run the set and manage the edit.</p>
+          <ul class="chips">
+            <li>Pre-production</li><li>Direction</li><li>Post-production</li>
+          </ul>
+        </div>
+
+        <!-- Ads (rendered) -->
+        <div class="bento__slot" id="ads"></div>
+      </div>
+    </section>
+
+    <!-- BENTO: FILMS -->
+    <section id="films" class="block">
+      <div class="block__head">
+        <h2 class="block__title reveal">Short films.</h2>
+        <p class="block__sub reveal" id="film-roles"></p>
+      </div>
+      <div class="bento" id="films-grid"></div>
+    </section>
+
+    <!-- BENTO: SERIES -->
+    <section id="series" class="block">
+      <div class="bento" id="series-grid"></div>
+    </section>
+
+    <!-- BENTO: APPROACH -->
+    <section id="approach" class="block">
+      <h2 class="block__title reveal">One person accountable.<br><span class="dim">Script to final cut.</span></h2>
+      <div class="bento">
+        <div class="tile t-third reveal">
+          <span class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg>
+          </span>
+          <h3 class="tile__h">Brand films &amp; ad campaigns</h3>
+          <p class="tile__p">P2C spots and story-led ads people watch till the end.</p>
+        </div>
+        <div class="tile t-third reveal">
+          <span class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>
+          </span>
+          <h3 class="tile__h">Founder &amp; personal brand films</h3>
+          <p class="tile__p">For leaders who want to be seen the way they really are.</p>
+        </div>
+        <div class="tile t-third reveal">
+          <span class="icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2.5"/><path d="M11 18h2"/></svg>
+          </span>
+          <h3 class="tile__h">Short-form series</h3>
+          <p class="tile__p">A clear format and a consistent look, built to grow an audience.</p>
+        </div>
+
+        <div class="tile t-full t-process reveal">
+          <p class="tile__kicker">How it works</p>
+          <ol class="steps">
+            <li><span>01</span><h4>Discovery</h4><p>You, your audience, and what the film needs to do.</p></li>
+            <li><span>02</span><h4>Script &amp; prep</h4><p>Story, casting, locations and a shot plan you sign off on.</p></li>
+            <li><span>03</span><h4>Production</h4><p>A focused shoot with a crew sized to the project.</p></li>
+            <li><span>04</span><h4>Edit &amp; delivery</h4><p>I manage the edit, colour and sound with my post team and deliver in every format you need.</p></li>
+          </ol>
+        </div>
+      </div>
+      <p class="fine reveal">Some work is under NDA and can be shared privately on request.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="block">
+      <div class="tile t-contact reveal">
+        <div class="glow" aria-hidden="true"></div>
+        <h2 class="contact__title">Have a story<br>worth telling?</h2>
+        <div class="contact__actions">
+          <a class="pill" id="email-link" href="#">Email me</a>
+          <a class="pill pill--ghost" id="wa-link" href="#" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>&copy; <span id="year"></span> Anurag Vedula</span>
+    <a id="ig-link" href="#" target="_blank" rel="noopener">Instagram</a>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+    <button class="lightbox__close" aria-label="Close video">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <div class="lightbox__frame" id="lightbox-frame"></div>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
